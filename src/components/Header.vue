@@ -1,9 +1,9 @@
 <template>
     <header>
-        <h1 class="header">{{headerOne}}</h1>
+        <h1>{{headerOne}}</h1>
         <hr>
         <hr>
-        <h2 class="header">{{headerTwo}}</h2>
+        <h2>{{headerTwo}}</h2>
     </header>
 </template>
 
@@ -20,10 +20,12 @@ export default {
 </script>
 
 <style>
-.header {
+h1, h2{
     color: white;
+    
 }
 hr {
     width: 400px;
+    text-align: center;
 }
 </style>
