@@ -30,9 +30,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-  background-color: black;
+  /* margin-top: 60px; */
   background-image: url("./assets/cup.jpg");
-  height: 1000px;
+  height: 100Vh;
+  margin: 0;
+  
 }
 </style>
